@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 header{
     padding: 5vh;
     background-color: rgba(0, 0, 0, 0.596);
@@ -13,6 +16,7 @@ div img{
     height: 0px;
 }
 body{
+    background: rgb(23, 23, 23);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -74,6 +78,11 @@ h4{
     color: rgb(174, 199, 85);
     font-family: 'Courier New', Courier, monospace;
     font-size: 4vh;
+    border-bottom: solid 2px rgb(174, 199, 85);
+}
+.top{
+    font-size: 6vh;
+    font-variant: small-caps;
 }
 h5{
     color: rgb(174, 199, 85);
@@ -305,6 +314,7 @@ form h3{
     }
 }
 .labyrinthe{
+    background: #111;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -317,7 +327,7 @@ form h3{
     flex-direction: column;
     justify-content: end;
 }
-.labrooms img{
+.labrooms img, h4{
     width: 50%;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -339,5 +349,9 @@ form h3{
 }
 #gameover{
     background: url(../media/images/cimtiere.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+#sortie{
+    background: url(../media/images/giphy.gif) no-repeat;
     background-size: 100% 100%;
 }
