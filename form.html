@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulaire</title>
+</head>
+<video id="fondvid" autoplay muted loop src="media/videos/futuristretrogaming.mp4"></video>
+<body>
+    <main>
+        <nav class="contact">
+            <a href="index.html">Retour à l'acceuil</a>
+        </nav>
+        <form action="#" method="get">
+            <h3>Formulaire de contact</h3>
+            <div>
+                <label class="req" for="prenom">Prenom</label>
+                <p><input type="text" name="prenom" id="prenom" required></p>
+            </div>
+            <div>
+                <label class="req" for="nom">Nom</label>
+                <p><input type="text" name="nom" id="nom" required></p>
+            </div>
+            <h3>Données</h3>
+            <div>
+                <label class="req" for="mail">Adresse E-Mail</label>
+                <p><input type="email" name="mail" id="mail" placeholder="Exemple@lycos.fr" required></p>
+            </div>
+            <div>
+                <h3>message</h3>
+                <label for="message">Message</label>
+                <p><textarea name="massage" id="message" rows="10"
+                        placeholder="Tapez votre message"></textarea></p>
+            </div>
+            <div>
+                <input type="checkbox" name="cgu" id="cgu">
+                <p><label for="cgu">cochez cette case si vous souhaitez vous abonner a la newletter.</label></p>
+            </div>
+            <p><input class="button" type="submit" value="Envoyer"></p>
+        </form>
+    </main>
+</body>
+
+</html>
